@@ -1,5 +1,2 @@
 #ignore site directory (clutter)
 site/
-
-*.yml
-index.md
