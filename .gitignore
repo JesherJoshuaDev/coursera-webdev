@@ -1,5 +1,5 @@
 #ignore site directory (clutter)
 site/
 
-_config.yml
+*.yml
 index.md
