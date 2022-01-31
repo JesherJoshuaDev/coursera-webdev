@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    width: 100%;
+    margin: 0px;
+}
+/*base styles*/
+.header{
+    margin: 50px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+p{
+    padding: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.items{
+    width: 100%;
+}
+
+.items>div{
+    background-color: lightsalmon;
+    margin-left: 1%;
+    position: relative;
+}
+.title{
+    font-size: 125%;
+    text-align: center;
+    text-transform: capitalize;
+    width: 40%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 60%;
+    border: 1px solid black;
+    padding: 1%;
+    position: relative;
+    
+}
+#chicken{
+    background-color: rgb(233, 156, 205);
+}
+#beef{
+    background-color: rgb(210, 253, 110);
+}
+#sushi{
+    background-color: rgb(142, 225, 250);
+}
+/*laptop styles*/
+@media (min-width:992px){
+    .col-lg-4{
+        float:left;
+        border: 1px solid black;
+        width: 32%;
+    }
+
+}
+
+/*tablet styles*/
+
+
+/*mobile styles*/
