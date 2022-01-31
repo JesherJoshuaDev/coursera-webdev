@@ -6,7 +6,7 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     width: 100%;
-    margin: 0px;
+    margin: 0%;
 }
 /*base styles*/
 .header{
@@ -16,7 +16,7 @@ body{
 
 }
 p{
-    padding: 3%;
+    padding: 15px;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
@@ -25,12 +25,15 @@ p{
 }
 .items{
     width: 100%;
+    position:relative;
 }
 
 .items>div{
     background-color: lightsalmon;
-    margin-left: 1%;
-    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: black solid 2px;
+
 }
 .title{
     font-size: 125%;
@@ -41,7 +44,8 @@ p{
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 60%;
-    border: 1px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
     padding: 1%;
     position: relative;
     
@@ -60,12 +64,31 @@ p{
     .col-lg-4{
         float:left;
         border: 1px solid black;
-        width: 32%;
+        width: 29.33%;
     }
 
 }
 
 /*tablet styles*/
-
+@media (min-width:768px)and (max-width:991px){
+    .col-md-6{
+        float: left;
+        width: 46%;
+        margin-bottom: 4%;
+    }
+    .col-md-12{
+        float: left;
+        width: 96%;
+        margin-bottom: 4%;
+    }
+}
 
 /*mobile styles*/
+@media (max-width:767px){
+    .col-sm-12{
+        float:left;
+        width: 96%;
+        margin-bottom: 4%; 
+    }
+    
+}
